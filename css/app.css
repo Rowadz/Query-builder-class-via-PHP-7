@@ -1,0 +1,15 @@
+html, body{
+    background-color: black; /* for my eyes */ 
+    color:whitesmoke;
+    margin: 0px;
+}
+.connection_error, .prepare_error, .bind_error, .execute_error{
+    color: tomato;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 20%;
+    margin: 20px;
+}
+.connection_error span{
+    color: brown;
+}
